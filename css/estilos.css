@@ -1,0 +1,53 @@
+* {
+    margin: 1;
+    padding: 1;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+div {
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    margin: 4px;
+    padding: 8px;
+}
+
+h3,
+h5,
+h6 {
+    color: red;
+    font-size: 17px;
+}
+
+p {
+    color: green;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 3px 1px;
+    border: 2px solid #ffffff;
+    padding: 4px;
+}
+
+div p {
+    font-size: 1.2em;
+}
+
+.blue {
+    color: blue;
+}
+
+.blue a {
+    color: yellow;
+    font-size: 14px;
+}
+
+a[href="http://www.tsicom.cl"] {
+    color: orange;
+}
+
+.cajaEnLinea {
+    display: inline-block;
+}
